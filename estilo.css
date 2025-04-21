@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; /* adiciona espaço pro footer */
+}
+
+header {
+    background-color: #0e6219b7;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.titulo {    
+    text-align: center; 
+}
+
+.paragrafo {
+    text-indent: 2em; /* ou 20px, por exemplo */
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.margemE {    
+    padding-left: 10px;    
+}
