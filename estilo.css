@@ -1,21 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #8f8f8f6e;
     margin: 0;
     padding: 0;
     padding-bottom: 60px; /* adiciona espaço pro footer */
 }
 
 header {
+   
     background-color: #0e6219b7;
     color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 35px;
     text-align: center;
 }
 
 footer {
-    background-color: #282828;
-    color: white;
+    background-color: #f3e300;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -23,10 +24,23 @@ footer {
     width: 100%;
 }
 
-.titulo {    
-    text-align: center; 
+.titulocabecalho {    
+    text-align: center;
+    font-size: 3em;    
 }
 
+.titulo {    
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase; 
+}
+
+.tituloprojeto {    
+    text-align: center; 
+    color: rgb(255, 0, 0);
+    font-size: 4em;
+    text-transform: uppercase;
+}
 .paragrafo {
     text-indent: 2em; /* ou 20px, por exemplo */
     text-align: justify;
@@ -34,6 +48,32 @@ footer {
     padding-right: 10px;
 }
 
-.margemE {    
-    padding-left: 10px;    
+.margem {    
+    padding-left: 25px;
+    padding-right: 10px;    
 }
+
+.margemD {    
+    padding-left: 25px;
+    padding-right: 10px;
+    text-align: right;    
+}
+
+.logo {
+    height: 50px; /* Ajuste conforme o tamanho desejado */
+    margin-right: 15px;
+}
+
+.tema {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 2em;
+    padding: 0 10px;
+  }
+  
+  .tema span {
+    font-size: 1.5em;         
+  }
