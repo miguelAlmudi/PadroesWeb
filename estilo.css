@@ -1,9 +1,11 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 26px;
     background-color: #8f8f8f6e;
     margin: 0;
     padding: 0;
     padding-bottom: 60px; /* adiciona espaço pro footer */
+    margin-bottom: 100px;
 }
 
 header {
@@ -49,7 +51,7 @@ footer {
 }
 
 .margem {    
-    padding-left: 25px;
+    padding-left: 45px;
     padding-right: 10px;    
 }
 
@@ -66,7 +68,7 @@ footer {
 
 .tema {
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 1em;
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: justify;
@@ -77,3 +79,23 @@ footer {
   .tema span {
     font-size: 1.5em;         
   }
+
+  .diagrama {
+    text-align: center;
+    margin: 2em auto;
+  }
+  
+  .diagrama img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .diagrama figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 0.5em;
+    font-style: italic;
+  }
+  
